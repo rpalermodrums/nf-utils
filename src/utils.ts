@@ -1,4 +1,4 @@
-type KeyedObject = {[key: string]: unknown};
+export type KeyedObject = {[key: string]: unknown};
 
 export function pick(object: KeyedObject, paths: string[]) {
     const result: KeyedObject = {};
