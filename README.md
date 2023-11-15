@@ -1,12 +1,4 @@
-# bun starter
-
-## Getting Started
-
-Click the [Use this template](https://github.com/wobsoriano/bun-lib-starter/generate) button to create a new repository with the contents starter.
-
-OR
-
-Run `bun create wobsoriano/bun-lib-starter ./my-lib`.
+# NeuroFlow Javascript Utilities
 
 ## Setup
 
@@ -20,6 +12,9 @@ bun test
 # build the app, available under dist
 bun run build
 ```
+
+## Publishing
+As an invited collaborator on the NPM package, login to your npm account via the command line (`npm login`). Then, simply update the version based on semver standards and run `npm publish`
 
 ## License
 
