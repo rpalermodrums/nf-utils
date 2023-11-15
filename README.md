@@ -1,5 +1,37 @@
 # NeuroFlow Javascript Utilities
 
+# Getting Started
+## Installation
+```bash
+// npm
+npm install neuroflow-utils
+
+// pnpm
+pnpm add neuroflow-utils
+
+// yarn
+yarn add neuroflow-utils
+
+// bun
+bun add neuroflow-utils
+```
+
+## Using the utilities
+
+```typescript
+import { isEqual } from "neuroflow-utils";
+
+const obj1 = { a: 1 }
+const obj2 = { a: 1 }
+const obj3 = { a: '1' }
+
+isEqual(obj1, obj2); // true
+isEqual(obj1, obj3) // false
+isEqual(1, 1) // true
+isEqual(1, '1') // false
+```
+
+# Contributing
 ## Setup
 
 ```bash
